@@ -68,7 +68,7 @@ struct SettingsView: View {
                         }
                     }
 
-                    Link(destination: URL(string: "https://github.com/kadircankaraca/Pandoku-2")!) {
+                    Link(destination: URL(string: "https://github.com/kadircankaraca/Pandoku2")!) {
                         HStack {
                             Image(systemName: "link")
                                 .foregroundColor(.green)
@@ -81,7 +81,7 @@ struct SettingsView: View {
                         }
                     }
 
-                    Link(destination: URL(string: "https://github.com/kadircankaraca/Pandoku-2#privacy-policy")!) {
+                    Link(destination: URL(string: "https://github.com/kadircankaraca/Pandoku2#privacy-policy")!) {
                         HStack {
                             Image(systemName: "hand.raised.fill")
                                 .foregroundColor(.orange)
@@ -118,7 +118,7 @@ struct SettingsView: View {
 
     private func shareApp() {
         let activityVC = UIActivityViewController(
-            activityItems: ["Check out Sudo - A classic Sudoku puzzle game!\nhttps://apps.apple.com/app/idXXXXXXXXX"],
+            activityItems: ["Check out Sudo - A classic Sudoku puzzle game!\nhttps://apps.apple.com/app/id6759330463"],
             applicationActivities: nil
         )
 

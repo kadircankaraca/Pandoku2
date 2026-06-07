@@ -122,7 +122,6 @@ class DataManager {
     /// Oyunu tamamlanmış olarak işaretler
     func completeGame(_ game: GameSession) {
         game.complete()
-        try? modelContext.save()
 
         // İstatistikleri güncelle
         if let statistic = getStatistic(for: game.difficulty) {

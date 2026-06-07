@@ -164,12 +164,14 @@ struct GameView: View {
                             PortraitControlPad(
                                 onNumberSelected: { enterNumber($0) },
                                 onUndo: { _ = gameSession.undo() },
+                                onRedo: { _ = gameSession.redo() },
                                 onTogglePencil: { isPencilMode.toggle() },
                                 onToggleErrors: { showErrors.toggle() },
                                 onHint: { useHint() },
                                 isPencilMode: isPencilMode,
                                 showErrors: showErrors,
                                 canUndo: !gameSession.moveHistory.isEmpty,
+                                canRedo: !gameSession.redoStack.isEmpty,
                                 hintsUsed: gameSession.hintsUsed,
                                 availableWidth: geometry.size.width,
                                 completedDigits: gameSession.completedDigits,
@@ -1808,15 +1810,17 @@ struct LandscapeControlPad: View {
 
 struct PortraitControlPad: View {
     @EnvironmentObject private var localizationManager: LocalizationManager
-    
+
     let onNumberSelected: (Int) -> Void
     let onUndo: () -> Void
+    let onRedo: () -> Void
     let onTogglePencil: () -> Void
     let onToggleErrors: () -> Void
     let onHint: () -> Void
     let isPencilMode: Bool
     let showErrors: Bool
     let canUndo: Bool
+    let canRedo: Bool
     let hintsUsed: Int
     let availableWidth: CGFloat
     let completedDigits: Set<Int>
@@ -1835,6 +1839,7 @@ struct PortraitControlPad: View {
         VStack(spacing: isIPad ? 16 : 8) {
             HStack(spacing: isIPad ? 24 : 16) {
                 portraitToolButton(icon: "arrow.uturn.backward", label: "game.undo".localized, isActive: false, isDisabled: !canUndo, action: onUndo)
+                portraitToolButton(icon: "arrow.uturn.forward", label: "game.redo".localized, isActive: false, isDisabled: !canRedo, action: onRedo)
                 portraitToolButton(icon: "pencil.tip", label: "game.notes".localized, isActive: isPencilMode, isDisabled: false, action: onTogglePencil)
                 portraitToolButton(icon: "exclamationmark.triangle.fill", label: "game.errors".localized, isActive: showErrors, isDisabled: false, action: onToggleErrors)
                 portraitToolButton(icon: "lightbulb.fill", label: "game.hint".localized, isActive: false, isDisabled: hintsUsed >= 5, action: onHint)
