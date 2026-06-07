@@ -1,0 +1,143 @@
+/*
+  Localizable.strings (Turkish)
+  Pandoku 2
+*/
+
+// ==========================================
+// MARK: - App
+// ==========================================
+"app.name" = "Sudo";
+"app.tagline" = "Sudoku Oyunu";
+
+// ==========================================
+// MARK: - Menu
+// ==========================================
+"menu.new_game" = "Yeni Oyun";
+"menu.continue_game" = "Devam Et";
+"menu.statistics" = "İstatistikler";
+"menu.settings" = "Ayarlar";
+
+// ==========================================
+// MARK: - Difficulty
+// ==========================================
+"difficulty.title" = "Zorluk Seçin";
+"difficulty.easy" = "Kolay";
+"difficulty.medium" = "Orta";
+"difficulty.hard" = "Zor";
+"difficulty.expert" = "Uzman";
+"difficulty.clues" = "Verilen";
+"difficulty.best_time" = "En İyi";
+
+// ==========================================
+// MARK: - Settings
+// ==========================================
+"settings.title" = "Ayarlar";
+"settings.appearance" = "Görünüm";
+"settings.language" = "Dil";
+"settings.about" = "Hakkında";
+"settings.done" = "Kapat";
+"settings.language_footer" = "Dil değişiklikleri için uygulama yeniden başlatma gerekli";
+"settings.support" = "Destek";
+"settings.rate_app" = "Uygulamayı Oyla";
+"settings.share_app" = "Uygulamayı Paylaş";
+
+// ==========================================
+// MARK: - Theme
+// ==========================================
+"theme.light" = "Aydınlık";
+"theme.dark" = "Karanlık";
+"theme.system" = "Otomatik";
+
+// ==========================================
+// MARK: - Language
+// ==========================================
+"language.turkish" = "Türkçe";
+"language.english" = "English";
+
+// ==========================================
+// MARK: - About
+// ==========================================
+"about.version" = "Versiyon";
+"about.version_number" = "1.0.0";
+"about.developer" = "Yapım: Kadir";
+"about.features" = "Özellikler:";
+"about.feature_1" = "4 zorluk seviyesi";
+"about.feature_2" = "Otomatik kaydetme";
+"about.feature_3" = "İpucu ve not alma";
+"about.feature_4" = "İstatistik takibi";
+"about.rate_app" = "Uygulamayı Oyla";
+"about.visit_website" = "Web Sitesini Ziyaret Et";
+"about.privacy_policy" = "Gizlilik Politikası";
+"about.social_twitter" = "Twitter";
+"about.social_github" = "GitHub";
+"about.made_with_love" = "Türkiye'de yapıldı";
+
+// ==========================================
+// MARK: - Game
+// ==========================================
+"game.paused" = "Oyun Duraklatıldı";
+"game.resume" = "Devam Et";
+"game.exit_to_menu" = "Ana Menüye Dön";
+"game.difficulty" = "Zorluk";
+"game.time" = "Süre";
+"game.mistakes" = "Hatalar";
+"game.hints" = "İpuçları";
+"game.controls" = "Kontroller";
+"game.undo" = "Geri";
+"game.redo" = "İleri";
+"game.notes" = "Not";
+"game.errors" = "Hata";
+"game.hint" = "İpucu";
+"game.congratulations" = "Tebrikler! 🎉";
+"game.ok" = "Tamam";
+"game.completed_message" = "Oyunu tamamladınız! Süre:";
+"game.score" = "Skor";
+"game.perfect_game" = "Mükemmel Oyun!";
+"game.base_score" = "Temel Puan";
+"game.time_bonus" = "Süre Bonusu";
+"game.perfect_bonus" = "Mükemmel Bonus";
+"game.difficulty_multiplier" = "Zorluk Çarpanı";
+"game.final_score" = "Final Skor";
+"game.move_score" = "Hamle Puanı";
+"game.perfect_bonus" = "Mükemmel Bonus";
+"game.difficulty_bonus" = "Zorluk Bonusu";
+"game.total_score" = "Toplam Skor";
+
+// ==========================================
+// MARK: - Exit Confirmation
+// ==========================================
+"game.exit_confirmation_title" = "Oyundan Çık";
+"game.exit_confirmation_message" = "Oyunu kaydetmek mi yoksa terk etmek mi istiyorsunuz?";
+"game.save_and_exit" = "Kaydet ve Çık";
+"game.abandon_and_exit" = "Oyunu Terk Et";
+"game.cancel" = "İptal";
+"game.back" = "Geri";
+// ==========================================
+// MARK: - Statistics
+// ==========================================
+"stats.title" = "İstatistikler";
+"stats.close" = "Kapat";
+"stats.summary" = "Genel Özet";
+"stats.total_games" = "Toplam Oyun";
+"stats.completed" = "Tamamlanan";
+"stats.perfect" = "Hatasız";
+"stats.completion_rate" = "Tamamlama";
+"stats.total_time" = "Toplam Süre";
+"stats.completion" = "tamamlama";
+"stats.games" = "Oyun";
+"stats.wins" = "Kazanma";
+"stats.best" = "En İyi";
+"stats.average" = "Ortalama";
+"stats.best_streak" = "En iyi seri";
+"stats.empty_title" = "Henüz İstatistik Yok";
+"stats.empty_message" = "İstatistiklerinizi görmek için birkaç oyun oynayın!";
+// ==========================================
+// MARK: - Time Format
+// ==========================================
+"time.minutes" = "%d dk %d sn";
+"time.seconds" = "%d sn";
+
+// ==========================================
+// MARK: - Loading
+// ==========================================
+"loading.preparing" = "Hazırlanıyor...";

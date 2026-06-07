@@ -1,0 +1,141 @@
+/*
+  Localizable.strings (English)
+  Pandoku 2
+*/
+
+// ==========================================
+// MARK: - App
+// ==========================================
+"app.name" = "Sudo";
+"app.tagline" = "Sudoku Game";
+
+// ==========================================
+// MARK: - Menu
+// ==========================================
+"menu.new_game" = "New Game";
+"menu.continue_game" = "Continue";
+"menu.statistics" = "Statistics";
+"menu.settings" = "Settings";
+
+// ==========================================
+// MARK: - Difficulty
+// ==========================================
+"difficulty.title" = "Select Difficulty";
+"difficulty.easy" = "Easy";
+"difficulty.medium" = "Medium";
+"difficulty.hard" = "Hard";
+"difficulty.expert" = "Expert";
+"difficulty.clues" = "Clues";
+"difficulty.best_time" = "Best";
+
+// ==========================================
+// MARK: - Settings
+// ==========================================
+"settings.title" = "Settings";
+"settings.appearance" = "Appearance";
+"settings.language" = "Language";
+"settings.about" = "About";
+"settings.done" = "Done";
+"settings.language_footer" = "App restart required to apply language changes";
+"settings.support" = "Support";
+"settings.rate_app" = "Rate App";
+"settings.share_app" = "Share App";
+
+// ==========================================
+// MARK: - Theme
+// ==========================================
+"theme.light" = "Light";
+"theme.dark" = "Dark";
+"theme.system" = "Auto";
+
+// ==========================================
+// MARK: - Language
+// ==========================================
+"language.turkish" = "Türkçe";
+"language.english" = "English";
+
+// ==========================================
+// MARK: - About
+// ==========================================
+"about.version" = "Version";
+"about.version_number" = "1.0.0";
+"about.developer" = "Made by: Kadir";
+"about.features" = "Features:";
+"about.feature_1" = "4 difficulty levels";
+"about.feature_2" = "Auto-save";
+"about.feature_3" = "Hints and notes";
+"about.feature_4" = "Statistics tracking";
+"about.rate_app" = "Rate App";
+"about.visit_website" = "Visit Website";
+"about.privacy_policy" = "Privacy Policy";
+"about.social_twitter" = "Twitter";
+"about.social_github" = "GitHub";
+"about.made_with_love" = "Made in Türkiye";
+
+// ==========================================
+// MARK: - Game
+// ==========================================
+"game.paused" = "Game Paused";
+"game.resume" = "Resume";
+"game.exit_to_menu" = "Exit to Menu";
+"game.difficulty" = "Difficulty";
+"game.time" = "Time";
+"game.mistakes" = "Mistakes";
+"game.hints" = "Hints";
+"game.controls" = "Controls";
+"game.undo" = "Undo";
+"game.redo" = "Redo";
+"game.notes" = "Notes";
+"game.errors" = "Errors";
+"game.hint" = "Hint";
+"game.congratulations" = "Congratulations! 🎉";
+"game.ok" = "OK";
+"game.completed_message" = "You completed the game! Time:";
+"game.score" = "Score";
+"game.perfect_game" = "Perfect Game!";
+"game.base_score" = "Base Score";
+"game.time_bonus" = "Time Bonus";
+"game.perfect_bonus" = "Perfect Bonus";
+"game.difficulty_multiplier" = "Difficulty Multiplier";
+"game.final_score" = "Final Score";
+"game.move_score" = "Move Score";
+"game.perfect_bonus" = "Perfect Bonus";
+"game.difficulty_bonus" = "Difficulty Bonus";
+"game.total_score" = "Total Score";
+// ==========================================
+// MARK: - Exit Confirmation
+// ==========================================
+"game.exit_confirmation_title" = "Exit Game";
+"game.exit_confirmation_message" = "Would you like to save the game or abandon it?";
+"game.save_and_exit" = "Save and Exit";
+"game.abandon_and_exit" = "Abandon Game";
+"game.cancel" = "Cancel";
+"game.back" = "Back";
+// ==========================================
+// MARK: - Statistics
+// ==========================================
+"stats.title" = "Statistics";
+"stats.close" = "Close";
+"stats.summary" = "Summary";
+"stats.total_games" = "Total Games";
+"stats.completed" = "Completed";
+"stats.perfect" = "Perfect";
+"stats.completion_rate" = "Completion";
+"stats.total_time" = "Total Time";
+"stats.completion" = "completion";
+"stats.games" = "Games";
+"stats.wins" = "Wins";
+"stats.best" = "Best";
+"stats.average" = "Average";
+"stats.best_streak" = "Best streak";
+"stats.empty_title" = "No Statistics Yet";
+"stats.empty_message" = "Play some games to see your statistics here!";
+// ==========================================
+// MARK: - Time Format
+// ==========================================
+"time.minutes" = "%d min %d sec";
+"time.seconds" = "%d sec";
+// ==========================================
+// MARK: - Loading
+// ==========================================
+"loading.preparing" = "Preparing...";
